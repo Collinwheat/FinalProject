@@ -418,12 +418,12 @@ USE `rainbowdb`;
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (1, '1 main st', NULL, 'Denver', 'Colorado', '80014', NULL, NULL, NULL);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (2, '2 test blvd', NULL, 'Salt Lake City', 'Utah', '84004', NULL, NULL, NULL);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (3, '45 circle dr', NULL, 'Springfield', 'Nevada', '89001', true, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (4, '1 bedford', NULL, 'San Francisco', 'California', '94102', true, NULL, NULL);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (4, '1 bedford', NULL, 'San Francisco', 'California', '94102', true, -122.45422660252977, 37.389444);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (5, '65 huntington', NULL, 'Las Vegas', 'Nevada', '89104', true, NULL, NULL);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (6, '311 circle drive', NULL, 'Huston', 'Texas', '77003', true, NULL, NULL);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (7, '78 round road', NULL, 'Nashville', 'Tennessee', '37209', true, NULL, NULL);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (8, '33 lucky lane', NULL, 'Atlanta', 'Georga', '30306', true, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (9, '22 greenbriar', NULL, 'Columbus ', 'Ohio', '43125', true, NULL, NULL);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (9, '22 greenbriar', NULL, 'Columbus ', 'Ohio', '43125', true,  -83.000556, 39.962222);
 
 COMMIT;
 
