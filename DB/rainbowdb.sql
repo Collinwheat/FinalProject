@@ -415,14 +415,14 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `rainbowdb`;
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (1, '1 main st', NULL, 'Denver', 'Colorado', '80014', NULL, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (2, '2 test blvd', NULL, 'Salt Lake City', 'Utah', '84004', NULL, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (3, '45 circle dr', NULL, 'Springfield', 'Nevada', '89001', true, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (4, '1 bedford', NULL, 'San Francisco', 'California', '94102', true, -122.45422660252977, 37.389444);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (5, '65 huntington', NULL, 'Las Vegas', 'Nevada', '89104', true, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (6, '311 circle drive', NULL, 'Huston', 'Texas', '77003', true, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (7, '78 round road', NULL, 'Nashville', 'Tennessee', '37209', true, NULL, NULL);
-INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (8, '33 lucky lane', NULL, 'Atlanta', 'Georga', '30306', true, NULL, NULL);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (1, '7400 E Orchard Rd', NULL, 'Denver', 'Colorado', '80111', NULL, -104.90272, 39.608785);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (2, '1032 Learned Ave', NULL, 'Salt Lake City', 'Utah', '84116', NULL, -111.891111, 40.760833);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (3, '3131 Las Vegas Blvd', NULL, 'Las Vegas', 'Nevada', '89109', true, -115.136389, 36.175);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (4, '1600 Amphitheater Pkwy', NULL, 'Mountain View', 'California', '94043', true, -122.45422660252977, 37.389444);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (5, '2121 E Craig Rd', NULL, 'Las Vegas', 'Nevada', '89030', true, -115.118824, 36.238521);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (6, '2222 Shearn St', NULL, 'Huston', 'Texas', '77007', true, -95.3836231, 29.7680711);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (7, '237 Hermitage Ave', NULL, 'Nashville', 'Tennessee', '37210', true, -86.7652816, 36.1520845);
+INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (8, '1238 DeKalb Ave', NULL, 'Atlanta', 'Georga', '30307', true, -84.3913665, 33.7586154);
 INSERT INTO `address` (`id`, `street`, `street2`, `city`, `state`, `zip`, `active`, `longitude`, `latitude`) VALUES (9, '22 greenbriar', NULL, 'Columbus ', 'Ohio', '43125', true,  -83.000556, 39.962222);
 
 COMMIT;
@@ -481,7 +481,7 @@ COMMIT;
 START TRANSACTION;
 USE `rainbowdb`;
 INSERT INTO `comment` (`id`, `photo`, `description`, `trip_id`, `user_id`, `comment_date`, `active`) VALUES (1, NULL, 'Lets meet up \'round noon', 1, 1, '2023-04-24', true);
-INSERT INTO `comment` (`id`, `photo`, `description`, `trip_id`, `user_id`, `comment_date`, `active`) VALUES (2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoKx8K5hOAYBzbGJYL8WQ19-2mycYyZwqlxg&usqp=CAU', 'Vegas Baby !!', 1, 3, '2023-04-24', true);
+INSERT INTO `comment` (`id`, `photo`, `description`, `trip_id`, `user_id`, `comment_date`, `active`) VALUES (2, 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDUHh80Xfyjpftoj27riiA5j4pEqXhWdTi6g&usqp=CAU', 'Cant Wait!', 1, 3, '2023-04-24', true);
 
 COMMIT;
 
